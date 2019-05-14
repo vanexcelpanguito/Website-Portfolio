@@ -1,0 +1,77 @@
+.portfolio-wrapper{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.portfolio-container{
+		width: 200px;
+		height: auto;
+		margin: 0 auto;
+		
+	}
+	.portfolio-container div{
+		width: 200px;
+		height: 150px;
+		float: left;
+		background-color: #acac;
+		margin-top: 10px;
+	}
+	.portfolio-container div:hover{
+		background-color: #111;
+		opacity: 0.3;
+		transition: .5s;
+		transform: scale(1.1);
+		color: #fff;
+	}
+	
+	.portfolio-container div p{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 60px;
+	}
+	@media only screen and (min-width: 765px){ /*start of media query for design link in portfolio page. this section is for ipad*/
+
+	.portfolio-container{
+		width: 500px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio-container div{
+		width: 200px;
+		height: 150px;
+		float: left;
+		background-color: #acac;
+		margin: 50px 20px 0 20px;
+	}
+	#gallery{
+		margin-bottom: 50px;
+	}
+	.portfolio-container div p{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 60px;
+	}
+	}
+	@media only screen and (min-width: 1000px){ /*start of media query for Portfolio. this section is for desktop*/
+	.portfolio-container{
+		width: 500px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio-container div{
+		width: 200px;
+		height: 150px;
+		float: left;
+		background-color: #acac;
+		margin: 50px 20px 0 20px;
+	}
+	#gallery{
+		margin-bottom: 50px;
+	}
+	.portfolio-container div p{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 60px;
+	}
+	}

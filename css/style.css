@@ -1,0 +1,1062 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+} /*end of reset stylesheet -----------------------------------*/
+
+/*start of my CSS*/
+*{
+font-family: 'PT Sans', sans-serif;
+text-decoration: none;
+list-style-type: none;
+}
+body{
+    background-color: #ebe8e3;
+  }
+.main-header{
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-color: #ebe8e3;
+}
+.header-logo{
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 25px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: #111;
+}
+.navigation{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.navigation ul{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.navigation li{
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  padding: 0px 13px;
+
+}
+.navigation ul li a{
+  font-family: Poppins;
+  font-size: 16px;
+  color: #111;
+}
+.navigation ul li a:hover{
+  color: #67635c;
+}
+.header-email{
+  display: none;
+}
+@media only screen and (min-width: 765px){ /* start of media screen for header. This media screen is for Ipad*/
+  .main-header{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #ebe8e3;
+  }
+  .header-logo{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 0 20px 0;
+    line-height: 50px;
+    float: left;
+    border-right: 2px solid #111;
+  }
+  .navigation {
+    float: left;
+    height: auto;
+    width: 400px;
+  }
+  .navigation ul{
+    float: left;
+    width: 100%;
+  }
+  .navigation li{
+    float: left;
+    padding: 0px 20px;
+    line-height: 100px;
+
+  }
+  .navigation ul li a{
+    font-size: 18px;
+  }
+  .navigation ul li a:hover{
+    color: #67635c;
+  }
+  .header-email{
+    display: block;
+    float: right;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #111;
+    line-height: 90px;
+    padding: 0 20px;
+    margin: 5px 20px 0 0;
+    border: 1px solid #bab2a6;
+  }
+  .header-email:hover{
+    color: #67635c;
+  }
+
+}
+@media only screen and (min-width: 1000px){ /* start of media screen for header. This media screen is for desktop*/
+  .main-header{
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: #ebe8e3;
+  }
+
+  .header-logo{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 0 20px 0;
+    line-height: 50px;
+    float: left;
+    border-right: 2px solid #111;
+  }
+  .navigation {
+    float: left;
+    height: auto;
+    width: 500px;
+  }
+  .navigation ul{
+    float: left;
+    width: 100%;
+  }
+  .navigation li{
+    float: left;
+    padding: 0px 20px;
+    line-height: 100px;
+
+  }
+  .navigation ul li a{
+    font-size: 18px;
+  }
+  .navigation ul li a:hover{
+    color: #67635c;
+  }
+  .header-email{
+    display: block;
+    float: right;
+    font-family: Poppins;
+    font-size: 18px;
+    color: #111;
+    line-height: 90px;
+    padding: 0 20px;
+    margin: 5px 20px 0 0;
+    border: 1px solid #bab2a6;
+  }
+  .header-email:hover{
+    color: #67635c;
+  }
+
+}
+
+/*END OF HEADER CSS*/
+main{
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.main-banner{
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/background-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main-banner h2{
+  font-family: Poppins;
+  font-size: 60px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 10px #111;
+  padding-top: 25%;
+}
+.main-banner h1{
+  font-size: 28px;
+  line-height:35px;
+  font-family: Poppins;
+  font-weight: 200;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 5px #111;
+}
+@media only screen and (min-width: 765px){ /* start of media screen for banner. This media screen is for Ipad*/
+  .main-banner{
+    width: 100%;
+    height: 500px;
+  }
+  .main-banner h2{
+    padding-top: 15%;
+  }
+}
+@media only screen and (min-width: 1000px){ /* start of media screen for main content. This media screen is for desktop*/
+  .main-banner{
+    height: 550px;
+  }
+  .main-banner h2{
+    padding-top: 15%;
+  }
+  .main-banner h1{
+    line-height:50px;
+    text-shadow: 3px 5px 5px #111;
+  }
+}
+/*START OF THE LINK SECTION ------- SECOND SECTION IN INDEX.HTML*/
+.link-section div{
+  margin: 16px 16px 0px;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #ebe8e3;
+}
+.link-section div h3{
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 100px;
+  color: #111;
+  text-align: center;
+}
+.link-section div:hover{
+  background-color: #d8d1c7;
+}
+@media only screen and (min-width: 765px){ /* start of media screen for link section. This media screen is for Ipad*/
+  body{
+    background-color: #fff;
+  }
+  .wrapper{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .link-section div{
+    width: calc(33% - 32px);
+    height: 200px;
+    float: left;
+  }
+  .link-section div h3{
+    font-weight: 400;
+    line-height: 200px;
+  }
+}
+@media only screen and (min-width: 1000px){ /* start of media screen for link section. This media screen is for desktop*/
+  body{
+    background-color: #fff;
+  }
+  .wrapper{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .link-section div{
+    width: calc(33% - 32px);
+    height: 200px;
+    float: left;
+  }
+  .link-section div h3{
+    font-weight: 400;
+    line-height: 200px;
+  }
+}
+/* start of fooooooter */
+footer{
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  height: 100px;
+  float: left;
+  background-color: #111;
+}
+.footer-container{
+  width: 100%;
+}
+footer ul{
+  float: left;
+  width: fit-content;
+  padding-left: 20px;
+}
+footer ul li{
+  display: block;
+}
+footer ul li a{
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+}
+footer ul li a:hover{
+  color: #67635c;
+}
+footer .socialmedia-links{
+  float: right;
+  width: 110px;
+}
+footer .socialmedia-links img{
+  width: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  height: auto ;
+  float: left;
+}
+@media only screen and (min-width: 765px){ /* start of media screen for footer. This media screen is for Ipad*/
+  footer{
+  padding: 0px 40px;
+}
+
+  footer ul{
+  padding-left: 20px;
+  padding-top: 30px;
+  }
+  footer ul li{
+    display: inline-block;
+  }
+  footer ul li a{
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px;
+  }
+  footer .socialmedia-links{
+    float: right;
+    width: 200px;
+  }
+  footer .socialmedia-links img{
+	margin-top: 20px;
+    float: left;
+    width: 60px;
+    height: 60px;
+
+  }
+}
+@media only screen and (min-width: 1000px){ /* start of media screen for footer. This media screen is for desktop*/
+  footer ul li{
+    display: inline-block;
+  }
+  footer ul li a{
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px;
+  }
+  footer .socialmedia-links{
+    float: right;
+    width: 200px;
+  }
+  footer .socialmedia-links img{
+    float: left;
+    width: 60px;
+    height: 60px;
+
+  }
+
+}
+/*--------------------------ABOUT PAGE CSS ---------------------------*/
+.about-main{
+  width: 100%;
+  height: auto;
+  float: left;
+  background-color: #fff;
+}
+.about-main section{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.about-wrapper{
+  width: 375px;
+  margin: 0 auto;
+  height: auto;
+}
+.about-leftside{
+  width: 100px;
+
+  height: auto;
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #9ab08c;
+  border-right: 1px solid #9ab08c;
+}
+.about-leftside .profile{
+  width: 90px;
+  height: auto;
+  padding: 5px 5px 0 5px;
+  float: left;
+
+}
+.about-leftside h4{
+  float: left;
+  font-weight: 600;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  line-height: 15px;
+  color: #111;
+}
+.about-leftside h6{
+  font-weight: 400;
+  float: left;
+  font-size: 10px;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  color: #111;
+}
+.hire-me{
+  font-weight: 600;
+  float: left;
+  width: 99%;
+  font-size: 12px;
+  border: .5px solid #9ab08c;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  background-color: #9ab08c;
+}
+.contact-links{
+  float: left;
+}
+.contact-links img{
+  width: 25px;
+  margin: 5px 0 5px 15px;
+}
+.hire-me:hover{
+  background-color:  #02450d;
+  opacity: 0.8;
+
+}
+.about-rightside{
+  float: right;
+  width: 225px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+.about-rightside p{
+  font-size: 12px;
+  font-weight: 200;
+  padding: 5px 0;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.about-rightside h2{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0 0 0;
+  text-transform: uppercase;
+  color: #4d5846;
+}
+.right-top{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-left: 20px;
+}
+.skills{
+  width: 90%;
+  height: auto;
+  float: left;
+  border-bottom: 1px solid #4d5846;
+  padding-bottom: 10px;
+
+}
+.description{
+	  font-size: 8px !important;
+	  line-height: 12px;
+	  font-weight: 600;
+	  padding-top: 0px;
+	  color: #111 !important;
+  }
+.skills h1{
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 10px;
+  text-transform: uppercase;
+  color: #4d5846;
+}
+.work{
+  float: left;
+  width: 90%;
+  height: auto;
+  border-bottom: 1px solid #4d5846;
+  padding-bottom: 10px;
+}
+.work h4{
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  padding: 5px 0 10px 0;
+}
+.educ{
+  width: 90%;
+  height: auto;
+  float: left;
+  border-bottom: 1px solid #4d5846;
+  padding-bottom: 10px;
+}
+
+.educ h4{
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  padding: 10px 0 10px 0;
+  text-transform: uppercase;
+}
+.right-bottom{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding-top: 10px;
+}
+.software{
+  width: 90%;
+  float: left;
+  height: auto;
+  margin-left: 20px;
+  border-bottom: 1px solid #4d5846;
+  padding-bottom: 10px;
+}
+.training{
+  width: 90%;
+  float: left;
+  height: auto;
+  margin-left: 20px;
+  border-bottom: 1px solid #4d5846;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+@media only screen and (min-width: 765px){ /* start of media screen for about page body. This media screen is for Ipad*/
+  .about-wrapper{
+    width: 750px;
+  }
+  .about-leftside{
+    width: 200px;
+  }
+  .about-leftside .profile{
+    width: 180px;
+  }
+  .about-leftside h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 15px;
+	padding-top: 10px;
+  }
+  .about-leftside h6{
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .hire-me{
+    font-size: 14px;
+	padding: 2px 0;
+  }
+  .contact-links img{
+    width: 25px;
+    padding: 5px 0 5px 5px;
+  }
+  .about-rightside{
+  width: 500px;
+}
+.about-rightside p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about-rightside h2{
+  font-size: 20px;
+  font-weight: 600 !important;
+}
+.skills{
+  width: 95%;
+}
+.description{
+	  font-size: 12px !important;
+	  line-height: 14px;
+	  font-weight: 400 !important;
+  }
+.skills h1{
+  font-size: 20px;
+  font-weight: 600;
+}
+.work{
+  width: 95%;
+}
+.work h4{
+  font-weight: 600;
+}
+.educ{
+  width: 95%;
+}
+
+.educ h4{
+  font-weight: 600;
+}
+.software{
+  width: 95%;
+}
+.training{
+  width: 95%;
+}
+}
+@media only screen and (min-width: 1000px){ /* start of media screen for about page body. This media screen is for Ipad*/
+.about-wrapper{
+  width: 900px;
+}
+.about-leftside .profile{
+  width: 180px;
+  height: 250px;
+
+}
+.about-leftside h4{
+  font-size: 16px;
+  line-height: 20px;
+}
+.about-leftside h6{
+  font-size: 14px;
+}
+.hire-me{
+  font-size: 14px;
+}
+.about-rightside{
+  width: 600px;
+}
+.about-rightside p{
+  font-size: 14px;
+}
+
+.about-rightside h2{
+  font-size: 18px;
+}
+.skills{
+  width: 95%;
+
+}
+.description{
+	  font-size: 12px !important;
+	  line-height: 16px;
+  }
+.skills h1{
+  font-size: 18px;
+}
+.work{
+  width: 95%;
+}
+.work h4{
+  font-size: 14px;
+}
+.educ{
+  width: 95%;
+}
+
+.educ h4{
+  font-size: 14px;
+}
+.software{
+  width: 95%;
+}
+.training{
+  width: 95%;
+}
+}
+/*START OF contact PAGE-----------------------------------------------------*/
+.contact-container{
+		width: 100%;
+		height: auto;
+		float: left;
+		background-color: #fff;
+	}
+	.contact-header{
+		width: 340px;
+		margin: 0 auto;
+		font-size: 16PX;
+		line-height: 24px;
+		text-align: center;
+		font-weight: 600;
+		margin-top: 20px;
+		color: #011723;
+	}
+	.contact-section{
+		width: 350px;
+		height: auto;
+		margin: 0 auto;
+		background-color: #fff;
+	}
+	.contact-form{
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+	}
+	.contact-form form{
+		width: 280px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.contact-form form h2{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 400;
+		text-align: center;
+		color: #011723;
+		padding-top: 20px;
+		border-top: 1px solid #9ab08c;
+	}
+	.contact-form form .input-text{
+		width: 250px;
+		line-height: 20px;
+		padding: 5px 5px 5px 10px;
+		display: block;
+		margin-bottom: 10px;
+		font-size: 12px;
+		border: none;
+		border-bottom: 1px solid #011723;
+	}
+	.contact-form form textarea{
+		width: 250px;
+		height: 100px;
+		padding: 5px 5px 5px 10px;
+		display: block;
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	.contact-form form button{
+		width: 125px;
+		height: 50px;
+		padding: 5px 5px 5px 10px;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		background-color: #ebe8e3;
+		border: none;
+		color: #011723;
+		float: left;
+		margin-left: 5px;
+	}
+	.contact-form form button:hover{
+		background-color: #7a7a7a;
+		color: #fff;
+	}
+	.contact-form form p{
+		font-size: 11px;
+		font-weight: 200;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.emaillink{
+		font-size: 12px;
+		font-weight: 200;
+		text-align: center;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.contact-form .tnc{
+		font-size: 6px;
+		font-weight: 200;
+		margin-bottom: 20px;
+	}
+	.wrap{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.contact-nums{
+		width: 340px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.contact-nums .calls{
+		width: 100%;
+		margin-top: 15px;
+		padding-left: 25px;
+		float: left;
+	}
+
+	.contact-nums h3{
+		font-size: 18px;
+		line-height: 24px;
+		padding-left: 50px;
+		font-weight: 400;
+
+	}
+	.contact-nums img{
+		width: 30px;
+		height: auto;
+		float: left;
+		padding-left: 10px;
+	}
+	@media only screen and (min-width: 765px){ /*start of media query for contact form. this section is for ipad*/
+
+	.contact-wrapper{
+		width: 765px;
+		height: auto;
+		margin: 0 auto;
+
+	}
+	.contact-header{
+		width: 700px;
+		font-size: 28px;
+		line-height: 40px;
+		margin-bottom: 20px;
+		font-weight: 400;
+	}
+	.wrap{
+		width: 300px;
+	}
+	.contact-nums{
+		width: 250px;
+
+	}
+	.contact-nums a{
+		color: #111;
+	}
+	.contact-nums a:hover{
+		color: #acacac;
+	}
+	.contact-nums h3{
+		font-size: 14px;
+	}/*end of the left side of contact form*/
+
+	.contact-section{
+		width: 450px;
+		float: left;
+	}
+	.contact-form form{
+		width: 400px;
+		padding-left: 30px;
+
+	}
+	.contact-form form h2{
+		border: none;
+		text-align: left;
+		padding: 0;
+	}
+	.emaillink{
+		text-align: left;
+	}
+	.contact-form form p{
+		text-align: left !important;
+	}
+	.contact-form form .input-text{
+		width: 300px;
+		line-height: 20px;
+		padding-left: 20px;
+	}
+	.contact-form form textarea{
+		width: 310px;
+		height: 150px;
+	}
+	.contact-form form button{
+		width: 140px;
+		margin-left: 15px;
+	}
+
+	}
+	@media only screen and (min-width: 1000px){ /*start of media query for contact form. this section is for desktop*/
+
+	.contact-wrapper{
+		width: 1000px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.wrap{
+		width: 300px;
+	}
+	.contact-section{
+		width: 600px;
+	}
+	.contact-form form{
+		width: 600px;
+	}
+	.contact-form form h2{
+		font-size: 18px;
+	}
+	.emaillink{
+		padding-top: 10px;
+	}
+	.contact-form form .input-text{
+		width: 265px;
+		float: left;
+		margin: 5px 5px 15px 5px;
+
+	}
+	.contact-form form textarea{
+		width: 580px;
+	}
+	.contact-form form button{
+		margin-left: 0;
+	}
+
+	}
+	/*START OF PORTFOLIO PAGE*/
+	.portfolio-wrapper{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.portfolio-container{
+		width: 200px;
+		height: auto;
+		margin: 0 auto;
+	}
+  .portfolio-container div p{
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 60px;
+  }
+	.portfolio-container div{
+		width: 200px;
+		height: 150px;
+		float: left;
+		background-color: #ebe8e3;
+		margin-top: 10px;
+	}
+	.portfolio-container div:hover{
+		background-color: #acac;
+    color: #fff;
+	}
+
+	@media only screen and (min-width: 765px){ /*start of media query for Portfolio. this section is for ipad*/
+
+	.portfolio-container{
+		width: 720px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio-container div{
+		width: 200px;
+		height: 150px;
+		float: left;
+		margin: 100px 20px;
+	}
+	.portfolio-container div p{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 60px;
+	}
+	}
+	@media only screen and (min-width: 1000px){ /*start of media query for Portfolio. this section is for desktop*/
+		.portfolio-container{
+		width: 900px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.portfolio-container div{
+		width: 250px;
+		height: 175px;
+		float: left;
+		margin: 140px 25px;
+	}
+	.portfolio-container div p{
+		text-align: center;
+		font-size: 24px;
+		padding-top: 75px;
+	}
+	}

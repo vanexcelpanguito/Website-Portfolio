@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Van Excel Panguito Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-with, inital-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Slabo+27px" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <style type="text/css" rel="stylesheet">
+    *{
+      font-family: Poppins;
+    }
+	.headerh1{
+		width: 350px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	h1{
+		font-size: 18px;
+		line-height: 40px;
+		font-weight: 400;
+		color: #002560;
+		margin-bottom: 20px;
+	}
+	.back{
+		color: #111;
+		font-size: 10px;
+		font-weight: 600;
+		padding-left: 10px;
+		padding: 5px;
+		border: 0.5px solid #111;
+	}
+	#wrap{
+		width: 100%;
+		float: left;
+	}
+	.design-wrapper{
+		width: 100%;
+		height: auto;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.design-container{
+		width: 375px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.gallery{
+		width: 200px;
+		height: auto;
+		margin: 0 auto;
+	}
+	.small-img{
+		width: 100%;
+		height: auto;
+		float: left;
+		filter: grayscale(100%);
+		border-bottom: 1px solid #111;
+		margin-bottom: 20px;
+		box-shadow: 3px 3px 8px #111;
+	}
+	#small-top{
+		margin-top: 20px;
+	}
+	.small-img:hover{
+		transition: 0.3s;
+		filter: grayscale(0);
+		transform: scale(1.1);
+
+	}@media only screen and (min-width: 765px){ /*start of media query for Portfolio. this section is for ipad*/
+	.headerh1{
+		width: 450px;
+	}
+	h1{
+		font-size: 18px;
+		line-height: 30px;
+		margin-top: 30px;
+		font-weight: 400;
+		color: #002560;
+	}
+	.back{
+		font-size: 12px;
+		font-weight: 600;
+		margin-left: 20px;
+		padding: 5px;
+		border: 0.5px solid #111;
+	}
+	.design-container{
+		width: 500px;
+	}
+	.gallery{
+		width: 400px;
+	}
+	@media only screen and (min-width: 1000px){ /*start of media query for Portfolio. this section is for desktop*/
+	.design-container{
+		width: 1000px;
+	}
+	h1{
+		font-size: 24px;
+	}
+	.gallery{
+		width: 800px;
+		margin-top: 20px;
+
+	}
+	#small-top{
+		margin-top: 0px;
+	}
+	.small-img{
+		width: 45%;
+		margin-left: 4%;
+	}
+	.small-img:hover{
+		transition: 0.3s;
+		filter: grayscale(0);
+		transform: scale(1.1);
+	}
+	}
+
+
+  </style>
+</head>
+<body>
+  <header class="main-header"> <!--section for header-->
+  <div class="header-container">
+      <a class="header-logo" href="index.html">VAN EXCEL</a> <!--LOGO-->
+      <nav class="navigation">  <!--Navigation links-->
+        <ul>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="header-email" href="#">Email me</a>
+  </div>
+  </header>
+    <main class="design-wrapper" >
+      <section class="design-container">
+		<div id="wrap">
+			<div class="headerh1">
+				<h1>These are some of the Company Website designs that I made so far.</h1>
+			</div>
+			<div class="headerh1">
+				<a class="back" href="portfolio.html">Go back to portfolio</a>
+				<a class="back" href="design.html">Go back to "Design"</a>
+			</div>
+			<div class="gallery">
+				<a href="img/logo1.png"> <img id="small-top" class="small-img" src="img/logo1.png"></img></a>
+				<a href="img/logo2.png"><img class="small-img" src="img/logo2.png"></img></a>
+				<a href="img/logo-bird.png"><img class="small-img" src="img/logo-bird.png"></img></a>
+			</div>
+		</div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About me</a></li>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+        <div class="socialmedia-links">
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img src="img/gmail.png" ></a>
+          <a href="https://www.facebook.com/vanexcel.panguito" target="_blank"><img src="img/fb.png"></a>
+          <a href="https://www.instagram.com/vanexcelpanguito/?hl=en" target="_blank"><img src="img/instagram.png"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+</body>
+</html>
